@@ -5,7 +5,9 @@ import { Background } from './styled';
 export default function HomePage() {
     return (
         <Background> 
-            <Card></Card>           
+            <Card/>           
+            <Card/>           
+            <Card/>           
         </Background>
     )
 }

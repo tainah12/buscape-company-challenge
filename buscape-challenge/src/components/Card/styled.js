@@ -7,7 +7,7 @@ align-items: center;
 justify-content: center;
 background-color: #FFFFFF;
 box-shadow: 4px 4px 4px #e7e7e7;
-min-width: 50vw;
+min-width: 60vw;
 margin-top: 10px;
 height: 220px;
 border-radius: 5px;
