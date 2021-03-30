@@ -18,7 +18,6 @@ export const CardContainer = styled.div`
 width: 95%;
 max-height: 95%;
 justify-content: space-around;
-
 display: flex;
 align-items: center;
 `
@@ -123,7 +122,4 @@ border-radius: 3px;
     background-color: ${secondaryColor};
     cursor: pointer;
 }
-
 `
-
-

@@ -5,13 +5,16 @@ export const Card = () => {
     return (
         <Container>
             <CardContainer>
+
                 <Carousel>
                     <ImgCarousel src={tvLedCarousel} alt="tvLedCarousel" />
                     <ImgCarousel src={tvLedCarousel} alt="tvLedCarousel" />
                     <ImgCarousel src={tvLedCarousel} alt="tvLedCarousel" />
                     <ImgCarousel src={tvLedCarousel} alt="tvLedCarousel" />
                 </Carousel>
+
                 <Img src={tvLedCarousel} alt="tvLedCarousel" />
+
                 <DescriptionContainer>
                     <TitleDescription>TV Led blablabal</TitleDescription>
                     <ContainerPrice>
@@ -26,9 +29,10 @@ export const Card = () => {
                         </CardPrice>
                         <AddToCart>Adicionar ao carrinho + </AddToCart>
                     </ContainerPrice>
-
                 </DescriptionContainer>
+
             </CardContainer>
+            
         </Container>
     )
 }
